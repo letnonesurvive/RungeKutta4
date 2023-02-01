@@ -42,6 +42,7 @@ def main(thePath : str):
     plt.xlabel("X axis")
     plt.ylabel("Y axis")
     
+    plt.savefig("saved_solution.png")
     plt.show()
     
     return 0
